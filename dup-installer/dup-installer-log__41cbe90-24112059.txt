@@ -1,0 +1,477 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 01:13:38
+* VERSION: 1.4.2
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.3.9                                 |7.3.9
+OS__________________: WINNT                                 |WINNT
+CREATED_____________: 2021-07-24 11:20:59
+WP VERSION__________: 5.8
+DUP VERSION_________: 1.4.2
+DB__________________: 5.7.25
+DB TABLES___________: 17
+DB ROWS_____________: 905
+DB FILE SIZE________: 3.08MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.3.9 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache
+DOC ROOT____________: "D:/OSPanel/domains/etcetera"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://etcetera/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ACTION______: "donothing"
+ARCHIVE ENGINE______: "ziparchive"
+SET DIR PERMS_______: 0
+DIR PERMS VALUE_____: 644
+SET FILE PERMS______: 0
+FILE PERMS VALUE____: 755
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "D:/OSPanel/domains/etcetera/20210724_etcetera_tz_[HASH]_20210724112059_archive.zip"
+SIZE________________: 27.9MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+BEFORE EXTRACION ACTIONS
+MAINTENANCE MODE ENABLE
+
+
+START ZIP FILE EXTRACTION STANDARD >>> 
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "D:/OSPanel/domains/etcetera/20210724_etcetera_tz_[HASH]_20210724112059_archive.zip"
+SIZE________________: 27.9MBFile timestamp set to Current: 2021-09-02 13:13:50
+<<< ZipArchive Unzip Complete: true
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+
+PERMISSION UPDATES: None Applied
+
+STEP-1 COMPLETE @ 01:13:50 - RUNTIME: 12.5568 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 01:15:33
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTION CREATION___: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 5.7.25 -- Build Server: 5.7.25
+FILE SIZE:	dup-database__[HASH].sql (1.17MB)
+TIMEOUT:	5000
+MAXPACK:	268435456
+SQLMODE:	ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[D:/OSPanel/domains/etcetera/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	Off
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+DB FUNCTIONS:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	161
+
+wp_actionscheduler_actions: (1)
+wp_actionscheduler_claims: (0)
+wp_actionscheduler_groups: (1)
+wp_actionscheduler_logs: (3)
+wp_commentmeta: (0)
+wp_comments: (1)
+wp_duplicator_packages: (0)
+wp_links: (0)
+wp_options: (292)
+wp_postmeta: (415)
+wp_posts: (78)
+wp_term_relationships: (3)
+wp_term_taxonomy: (16)
+wp_termmeta: (0)
+wp_terms: (16)
+wp_usermeta: (32)
+wp_users: (1)
+Removed '51' cache/transient rows
+
+INSERT DATA RUNTIME: 6.9201 sec.
+STEP-2 COMPLETE @ 01:15:41 - RUNTIME: 7.9431 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 01:15:51
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "Etcetera_tz"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "D:/OSPanel/domains/etcetera.tz"
+path_new______________: "D:/OSPanel/domains/etcetera"
+siteurl_______________: "http://etcetera"
+url_old_______________: "http://etcetera.tz"
+url_new_______________: "http://etcetera"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "wp_actionscheduler_actions"______________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/OSPanel/domains/etcetera.tz" ==================> "D:/OSPanel/domains/etcetera"
+	SEARCH  2:"D:\/OSPanel\/domains\/etcetera.tz" ===============> "D:\/OSPanel\/domains\/etcetera"
+	SEARCH  3:"D%3A%2FOSPanel%2Fdomains%2Fetcetera.tz" ==========> "D%3A%2FOSPanel%2Fdomains%2Fetcetera"
+	SEARCH  4:"D:\OSPanel\domains\etcetera.tz" ==================> "D:/OSPanel/domains/etcetera"
+	SEARCH  5:"D:\\OSPanel\\domains\\etcetera.tz" ===============> "D:\/OSPanel\/domains\/etcetera"
+	SEARCH  6:"D%3A%5COSPanel%5Cdomains%5Cetcetera.tz" ==========> "D%3A%2FOSPanel%2Fdomains%2Fetcetera"
+	SEARCH  7:"//etcetera.tz" ===================================> "//etcetera"
+	SEARCH  8:"\/\/etcetera.tz" =================================> "\/\/etcetera"
+	SEARCH  9:"%2F%2Fetcetera.tz" ===============================> "%2F%2Fetcetera"
+	SEARCH 10:"//www.etcetera.tz" ===============================> "//etcetera"
+	SEARCH 11:"\/\/www.etcetera.tz" =============================> "\/\/etcetera"
+	SEARCH 12:"%2F%2Fwww.etcetera.tz" ===========================> "%2F%2Fetcetera"
+	SEARCH 13:"https://etcetera" ================================> "http://etcetera"
+	SEARCH 14:"https:\/\/etcetera" ==============================> "http:\/\/etcetera"
+	SEARCH 15:"https%3A%2F%2Fetcetera" ==========================> "http%3A%2F%2Fetcetera"
+
+EVALUATE TABLE: "wp_actionscheduler_claims"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_actionscheduler_groups"_______________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/OSPanel/domains/etcetera.tz" ==================> "D:/OSPanel/domains/etcetera"
+	SEARCH  2:"D:\/OSPanel\/domains\/etcetera.tz" ===============> "D:\/OSPanel\/domains\/etcetera"
+	SEARCH  3:"D%3A%2FOSPanel%2Fdomains%2Fetcetera.tz" ==========> "D%3A%2FOSPanel%2Fdomains%2Fetcetera"
+	SEARCH  4:"D:\OSPanel\domains\etcetera.tz" ==================> "D:/OSPanel/domains/etcetera"
+	SEARCH  5:"D:\\OSPanel\\domains\\etcetera.tz" ===============> "D:\/OSPanel\/domains\/etcetera"
+	SEARCH  6:"D%3A%5COSPanel%5Cdomains%5Cetcetera.tz" ==========> "D%3A%2FOSPanel%2Fdomains%2Fetcetera"
+	SEARCH  7:"//etcetera.tz" ===================================> "//etcetera"
+	SEARCH  8:"\/\/etcetera.tz" =================================> "\/\/etcetera"
+	SEARCH  9:"%2F%2Fetcetera.tz" ===============================> "%2F%2Fetcetera"
+	SEARCH 10:"//www.etcetera.tz" ===============================> "//etcetera"
+	SEARCH 11:"\/\/www.etcetera.tz" =============================> "\/\/etcetera"
+	SEARCH 12:"%2F%2Fwww.etcetera.tz" ===========================> "%2F%2Fetcetera"
+	SEARCH 13:"https://etcetera" ================================> "http://etcetera"
+	SEARCH 14:"https:\/\/etcetera" ==============================> "http:\/\/etcetera"
+	SEARCH 15:"https%3A%2F%2Fetcetera" ==========================> "http%3A%2F%2Fetcetera"
+
+EVALUATE TABLE: "wp_actionscheduler_logs"_________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/OSPanel/domains/etcetera.tz" ==================> "D:/OSPanel/domains/etcetera"
+	SEARCH  2:"D:\/OSPanel\/domains\/etcetera.tz" ===============> "D:\/OSPanel\/domains\/etcetera"
+	SEARCH  3:"D%3A%2FOSPanel%2Fdomains%2Fetcetera.tz" ==========> "D%3A%2FOSPanel%2Fdomains%2Fetcetera"
+	SEARCH  4:"D:\OSPanel\domains\etcetera.tz" ==================> "D:/OSPanel/domains/etcetera"
+	SEARCH  5:"D:\\OSPanel\\domains\\etcetera.tz" ===============> "D:\/OSPanel\/domains\/etcetera"
+	SEARCH  6:"D%3A%5COSPanel%5Cdomains%5Cetcetera.tz" ==========> "D%3A%2FOSPanel%2Fdomains%2Fetcetera"
+	SEARCH  7:"//etcetera.tz" ===================================> "//etcetera"
+	SEARCH  8:"\/\/etcetera.tz" =================================> "\/\/etcetera"
+	SEARCH  9:"%2F%2Fetcetera.tz" ===============================> "%2F%2Fetcetera"
+	SEARCH 10:"//www.etcetera.tz" ===============================> "//etcetera"
+	SEARCH 11:"\/\/www.etcetera.tz" =============================> "\/\/etcetera"
+	SEARCH 12:"%2F%2Fwww.etcetera.tz" ===========================> "%2F%2Fetcetera"
+	SEARCH 13:"https://etcetera" ================================> "http://etcetera"
+	SEARCH 14:"https:\/\/etcetera" ==============================> "http:\/\/etcetera"
+	SEARCH 15:"https%3A%2F%2Fetcetera" ==========================> "http%3A%2F%2Fetcetera"
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/OSPanel/domains/etcetera.tz" ==================> "D:/OSPanel/domains/etcetera"
+	SEARCH  2:"D:\/OSPanel\/domains\/etcetera.tz" ===============> "D:\/OSPanel\/domains\/etcetera"
+	SEARCH  3:"D%3A%2FOSPanel%2Fdomains%2Fetcetera.tz" ==========> "D%3A%2FOSPanel%2Fdomains%2Fetcetera"
+	SEARCH  4:"D:\OSPanel\domains\etcetera.tz" ==================> "D:/OSPanel/domains/etcetera"
+	SEARCH  5:"D:\\OSPanel\\domains\\etcetera.tz" ===============> "D:\/OSPanel\/domains\/etcetera"
+	SEARCH  6:"D%3A%5COSPanel%5Cdomains%5Cetcetera.tz" ==========> "D%3A%2FOSPanel%2Fdomains%2Fetcetera"
+	SEARCH  7:"//etcetera.tz" ===================================> "//etcetera"
+	SEARCH  8:"\/\/etcetera.tz" =================================> "\/\/etcetera"
+	SEARCH  9:"%2F%2Fetcetera.tz" ===============================> "%2F%2Fetcetera"
+	SEARCH 10:"//www.etcetera.tz" ===============================> "//etcetera"
+	SEARCH 11:"\/\/www.etcetera.tz" =============================> "\/\/etcetera"
+	SEARCH 12:"%2F%2Fwww.etcetera.tz" ===========================> "%2F%2Fetcetera"
+	SEARCH 13:"https://etcetera" ================================> "http://etcetera"
+	SEARCH 14:"https:\/\/etcetera" ==============================> "http:\/\/etcetera"
+	SEARCH 15:"https%3A%2F%2Fetcetera" ==========================> "http%3A%2F%2Fetcetera"
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   292][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/OSPanel/domains/etcetera.tz" ==================> "D:/OSPanel/domains/etcetera"
+	SEARCH  2:"D:\/OSPanel\/domains\/etcetera.tz" ===============> "D:\/OSPanel\/domains\/etcetera"
+	SEARCH  3:"D%3A%2FOSPanel%2Fdomains%2Fetcetera.tz" ==========> "D%3A%2FOSPanel%2Fdomains%2Fetcetera"
+	SEARCH  4:"D:\OSPanel\domains\etcetera.tz" ==================> "D:/OSPanel/domains/etcetera"
+	SEARCH  5:"D:\\OSPanel\\domains\\etcetera.tz" ===============> "D:\/OSPanel\/domains\/etcetera"
+	SEARCH  6:"D%3A%5COSPanel%5Cdomains%5Cetcetera.tz" ==========> "D%3A%2FOSPanel%2Fdomains%2Fetcetera"
+	SEARCH  7:"//etcetera.tz" ===================================> "//etcetera"
+	SEARCH  8:"\/\/etcetera.tz" =================================> "\/\/etcetera"
+	SEARCH  9:"%2F%2Fetcetera.tz" ===============================> "%2F%2Fetcetera"
+	SEARCH 10:"//www.etcetera.tz" ===============================> "//etcetera"
+	SEARCH 11:"\/\/www.etcetera.tz" =============================> "\/\/etcetera"
+	SEARCH 12:"%2F%2Fwww.etcetera.tz" ===========================> "%2F%2Fetcetera"
+	SEARCH 13:"https://etcetera" ================================> "http://etcetera"
+	SEARCH 14:"https:\/\/etcetera" ==============================> "http:\/\/etcetera"
+	SEARCH 15:"https%3A%2F%2Fetcetera" ==========================> "http%3A%2F%2Fetcetera"
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:   415][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/OSPanel/domains/etcetera.tz" ==================> "D:/OSPanel/domains/etcetera"
+	SEARCH  2:"D:\/OSPanel\/domains\/etcetera.tz" ===============> "D:\/OSPanel\/domains\/etcetera"
+	SEARCH  3:"D%3A%2FOSPanel%2Fdomains%2Fetcetera.tz" ==========> "D%3A%2FOSPanel%2Fdomains%2Fetcetera"
+	SEARCH  4:"D:\OSPanel\domains\etcetera.tz" ==================> "D:/OSPanel/domains/etcetera"
+	SEARCH  5:"D:\\OSPanel\\domains\\etcetera.tz" ===============> "D:\/OSPanel\/domains\/etcetera"
+	SEARCH  6:"D%3A%5COSPanel%5Cdomains%5Cetcetera.tz" ==========> "D%3A%2FOSPanel%2Fdomains%2Fetcetera"
+	SEARCH  7:"//etcetera.tz" ===================================> "//etcetera"
+	SEARCH  8:"\/\/etcetera.tz" =================================> "\/\/etcetera"
+	SEARCH  9:"%2F%2Fetcetera.tz" ===============================> "%2F%2Fetcetera"
+	SEARCH 10:"//www.etcetera.tz" ===============================> "//etcetera"
+	SEARCH 11:"\/\/www.etcetera.tz" =============================> "\/\/etcetera"
+	SEARCH 12:"%2F%2Fwww.etcetera.tz" ===========================> "%2F%2Fetcetera"
+	SEARCH 13:"https://etcetera" ================================> "http://etcetera"
+	SEARCH 14:"https:\/\/etcetera" ==============================> "http:\/\/etcetera"
+	SEARCH 15:"https%3A%2F%2Fetcetera" ==========================> "http%3A%2F%2Fetcetera"
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:    78][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/OSPanel/domains/etcetera.tz" ==================> "D:/OSPanel/domains/etcetera"
+	SEARCH  2:"D:\/OSPanel\/domains\/etcetera.tz" ===============> "D:\/OSPanel\/domains\/etcetera"
+	SEARCH  3:"D%3A%2FOSPanel%2Fdomains%2Fetcetera.tz" ==========> "D%3A%2FOSPanel%2Fdomains%2Fetcetera"
+	SEARCH  4:"D:\OSPanel\domains\etcetera.tz" ==================> "D:/OSPanel/domains/etcetera"
+	SEARCH  5:"D:\\OSPanel\\domains\\etcetera.tz" ===============> "D:\/OSPanel\/domains\/etcetera"
+	SEARCH  6:"D%3A%5COSPanel%5Cdomains%5Cetcetera.tz" ==========> "D%3A%2FOSPanel%2Fdomains%2Fetcetera"
+	SEARCH  7:"//etcetera.tz" ===================================> "//etcetera"
+	SEARCH  8:"\/\/etcetera.tz" =================================> "\/\/etcetera"
+	SEARCH  9:"%2F%2Fetcetera.tz" ===============================> "%2F%2Fetcetera"
+	SEARCH 10:"//www.etcetera.tz" ===============================> "//etcetera"
+	SEARCH 11:"\/\/www.etcetera.tz" =============================> "\/\/etcetera"
+	SEARCH 12:"%2F%2Fwww.etcetera.tz" ===========================> "%2F%2Fetcetera"
+	SEARCH 13:"https://etcetera" ================================> "http://etcetera"
+	SEARCH 14:"https:\/\/etcetera" ==============================> "http:\/\/etcetera"
+	SEARCH 15:"https%3A%2F%2Fetcetera" ==========================> "http%3A%2F%2Fetcetera"
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/OSPanel/domains/etcetera.tz" ==================> "D:/OSPanel/domains/etcetera"
+	SEARCH  2:"D:\/OSPanel\/domains\/etcetera.tz" ===============> "D:\/OSPanel\/domains\/etcetera"
+	SEARCH  3:"D%3A%2FOSPanel%2Fdomains%2Fetcetera.tz" ==========> "D%3A%2FOSPanel%2Fdomains%2Fetcetera"
+	SEARCH  4:"D:\OSPanel\domains\etcetera.tz" ==================> "D:/OSPanel/domains/etcetera"
+	SEARCH  5:"D:\\OSPanel\\domains\\etcetera.tz" ===============> "D:\/OSPanel\/domains\/etcetera"
+	SEARCH  6:"D%3A%5COSPanel%5Cdomains%5Cetcetera.tz" ==========> "D%3A%2FOSPanel%2Fdomains%2Fetcetera"
+	SEARCH  7:"//etcetera.tz" ===================================> "//etcetera"
+	SEARCH  8:"\/\/etcetera.tz" =================================> "\/\/etcetera"
+	SEARCH  9:"%2F%2Fetcetera.tz" ===============================> "%2F%2Fetcetera"
+	SEARCH 10:"//www.etcetera.tz" ===============================> "//etcetera"
+	SEARCH 11:"\/\/www.etcetera.tz" =============================> "\/\/etcetera"
+	SEARCH 12:"%2F%2Fwww.etcetera.tz" ===========================> "%2F%2Fetcetera"
+	SEARCH 13:"https://etcetera" ================================> "http://etcetera"
+	SEARCH 14:"https:\/\/etcetera" ==============================> "http:\/\/etcetera"
+	SEARCH 15:"https%3A%2F%2Fetcetera" ==========================> "http%3A%2F%2Fetcetera"
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:    16][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/OSPanel/domains/etcetera.tz" ==================> "D:/OSPanel/domains/etcetera"
+	SEARCH  2:"D:\/OSPanel\/domains\/etcetera.tz" ===============> "D:\/OSPanel\/domains\/etcetera"
+	SEARCH  3:"D%3A%2FOSPanel%2Fdomains%2Fetcetera.tz" ==========> "D%3A%2FOSPanel%2Fdomains%2Fetcetera"
+	SEARCH  4:"D:\OSPanel\domains\etcetera.tz" ==================> "D:/OSPanel/domains/etcetera"
+	SEARCH  5:"D:\\OSPanel\\domains\\etcetera.tz" ===============> "D:\/OSPanel\/domains\/etcetera"
+	SEARCH  6:"D%3A%5COSPanel%5Cdomains%5Cetcetera.tz" ==========> "D%3A%2FOSPanel%2Fdomains%2Fetcetera"
+	SEARCH  7:"//etcetera.tz" ===================================> "//etcetera"
+	SEARCH  8:"\/\/etcetera.tz" =================================> "\/\/etcetera"
+	SEARCH  9:"%2F%2Fetcetera.tz" ===============================> "%2F%2Fetcetera"
+	SEARCH 10:"//www.etcetera.tz" ===============================> "//etcetera"
+	SEARCH 11:"\/\/www.etcetera.tz" =============================> "\/\/etcetera"
+	SEARCH 12:"%2F%2Fwww.etcetera.tz" ===========================> "%2F%2Fetcetera"
+	SEARCH 13:"https://etcetera" ================================> "http://etcetera"
+	SEARCH 14:"https:\/\/etcetera" ==============================> "http:\/\/etcetera"
+	SEARCH 15:"https%3A%2F%2Fetcetera" ==========================> "http%3A%2F%2Fetcetera"
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:    16][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/OSPanel/domains/etcetera.tz" ==================> "D:/OSPanel/domains/etcetera"
+	SEARCH  2:"D:\/OSPanel\/domains\/etcetera.tz" ===============> "D:\/OSPanel\/domains\/etcetera"
+	SEARCH  3:"D%3A%2FOSPanel%2Fdomains%2Fetcetera.tz" ==========> "D%3A%2FOSPanel%2Fdomains%2Fetcetera"
+	SEARCH  4:"D:\OSPanel\domains\etcetera.tz" ==================> "D:/OSPanel/domains/etcetera"
+	SEARCH  5:"D:\\OSPanel\\domains\\etcetera.tz" ===============> "D:\/OSPanel\/domains\/etcetera"
+	SEARCH  6:"D%3A%5COSPanel%5Cdomains%5Cetcetera.tz" ==========> "D%3A%2FOSPanel%2Fdomains%2Fetcetera"
+	SEARCH  7:"//etcetera.tz" ===================================> "//etcetera"
+	SEARCH  8:"\/\/etcetera.tz" =================================> "\/\/etcetera"
+	SEARCH  9:"%2F%2Fetcetera.tz" ===============================> "%2F%2Fetcetera"
+	SEARCH 10:"//www.etcetera.tz" ===============================> "//etcetera"
+	SEARCH 11:"\/\/www.etcetera.tz" =============================> "\/\/etcetera"
+	SEARCH 12:"%2F%2Fwww.etcetera.tz" ===========================> "%2F%2Fetcetera"
+	SEARCH 13:"https://etcetera" ================================> "http://etcetera"
+	SEARCH 14:"https:\/\/etcetera" ==============================> "http:\/\/etcetera"
+	SEARCH 15:"https%3A%2F%2Fetcetera" ==========================> "http%3A%2F%2Fetcetera"
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:    32][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/OSPanel/domains/etcetera.tz" ==================> "D:/OSPanel/domains/etcetera"
+	SEARCH  2:"D:\/OSPanel\/domains\/etcetera.tz" ===============> "D:\/OSPanel\/domains\/etcetera"
+	SEARCH  3:"D%3A%2FOSPanel%2Fdomains%2Fetcetera.tz" ==========> "D%3A%2FOSPanel%2Fdomains%2Fetcetera"
+	SEARCH  4:"D:\OSPanel\domains\etcetera.tz" ==================> "D:/OSPanel/domains/etcetera"
+	SEARCH  5:"D:\\OSPanel\\domains\\etcetera.tz" ===============> "D:\/OSPanel\/domains\/etcetera"
+	SEARCH  6:"D%3A%5COSPanel%5Cdomains%5Cetcetera.tz" ==========> "D%3A%2FOSPanel%2Fdomains%2Fetcetera"
+	SEARCH  7:"//etcetera.tz" ===================================> "//etcetera"
+	SEARCH  8:"\/\/etcetera.tz" =================================> "\/\/etcetera"
+	SEARCH  9:"%2F%2Fetcetera.tz" ===============================> "%2F%2Fetcetera"
+	SEARCH 10:"//www.etcetera.tz" ===============================> "//etcetera"
+	SEARCH 11:"\/\/www.etcetera.tz" =============================> "\/\/etcetera"
+	SEARCH 12:"%2F%2Fwww.etcetera.tz" ===========================> "%2F%2Fetcetera"
+	SEARCH 13:"https://etcetera" ================================> "http://etcetera"
+	SEARCH 14:"https:\/\/etcetera" ==============================> "http:\/\/etcetera"
+	SEARCH 15:"https%3A%2F%2Fetcetera" ==========================> "http%3A%2F%2Fetcetera"
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/OSPanel/domains/etcetera.tz" ==================> "D:/OSPanel/domains/etcetera"
+	SEARCH  2:"D:\/OSPanel\/domains\/etcetera.tz" ===============> "D:\/OSPanel\/domains\/etcetera"
+	SEARCH  3:"D%3A%2FOSPanel%2Fdomains%2Fetcetera.tz" ==========> "D%3A%2FOSPanel%2Fdomains%2Fetcetera"
+	SEARCH  4:"D:\OSPanel\domains\etcetera.tz" ==================> "D:/OSPanel/domains/etcetera"
+	SEARCH  5:"D:\\OSPanel\\domains\\etcetera.tz" ===============> "D:\/OSPanel\/domains\/etcetera"
+	SEARCH  6:"D%3A%5COSPanel%5Cdomains%5Cetcetera.tz" ==========> "D%3A%2FOSPanel%2Fdomains%2Fetcetera"
+	SEARCH  7:"//etcetera.tz" ===================================> "//etcetera"
+	SEARCH  8:"\/\/etcetera.tz" =================================> "\/\/etcetera"
+	SEARCH  9:"%2F%2Fetcetera.tz" ===============================> "%2F%2Fetcetera"
+	SEARCH 10:"//www.etcetera.tz" ===============================> "//etcetera"
+	SEARCH 11:"\/\/www.etcetera.tz" =============================> "\/\/etcetera"
+	SEARCH 12:"%2F%2Fwww.etcetera.tz" ===========================> "%2F%2Fetcetera"
+	SEARCH 13:"https://etcetera" ================================> "http://etcetera"
+	SEARCH 14:"https:\/\/etcetera" ==============================> "http:\/\/etcetera"
+	SEARCH 15:"https%3A%2F%2Fetcetera" ==========================> "http%3A%2F%2Fetcetera"
+--------------------------------------
+SCANNED:	Tables:17 	|	 Rows:859 	|	 Cells:4974 
+UPDATED:	Tables:4 	|	 Rows:83 	|	 Cells:86 
+ERRORS:		0 
+RUNTIME:	0.169900 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME "** OBSCURED **"
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__[HASH]' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+MAINTENANCE MODE DISABLE
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 01:15:51 - RUNTIME: 2.4995 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+====================================

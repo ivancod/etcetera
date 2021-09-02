@@ -1,0 +1,15 @@
+/*
+Theme Name: wp-bootstrap-starter-child
+Template: wp-bootstrap-starter
+
+Не обязательные параметры:
+Theme URI: http://example.com/
+Description: Дочерняя тема для темы wp-bootstrap-starter
+Author: Ivan S
+*/
+
+/* импортируем стили родительской темы */
+@import url("../wp-bootstrap-starter/style.css");
+
+/* Свои дополнительные стили */
+.foo{ color:red; }
